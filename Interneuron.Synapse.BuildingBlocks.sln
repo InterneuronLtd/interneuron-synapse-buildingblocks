@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{25D57586-1E19-432D-AAC9-1D4AF03D6851}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{751F5C87-2C67-4AD1-A313-B4B7AD8E07BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interneuron.Common", "BuildingBlocks\Common\Interneuron.Common.csproj", "{93AD0EB9-866A-4180-9CF8-61898EF7E201}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Caching", "Caching", "{4235988B-DD1B-4DD9-9C25-1FEF0D34392E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exceptions", "Exceptions", "{D3D00B2A-7DE7-4E8B-A521-34F5DB903B6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logger", "Logger", "{74EA549B-93CD-4F81-91F6-E8AEC482A815}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interneuron.Caching", "BuildingBlocks\Infrastructure\Caching\Interneuron.Caching.csproj", "{1F67A3C0-30EB-443F-B738-D3A92AE4394C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomExceptions", "CustomExceptions", "{6F4CAE69-C47D-4018-B6A3-EB8EB7A2A8BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generic", "Generic", "{CEA8B7D1-78BC-4A4A-9E01-C5B930A6ED74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{EF9C867B-0AAA-4F5E-9E0A-BA64BECEEC40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interneuron.Web.Logger", "BuildingBlocks\Infrastructure\Logger\Interneuron.Web.Logger.csproj", "{A5890D36-386D-4EE7-87BC-E992C7BAFADC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interneuron.CustomExceptions", "BuildingBlocks\Infrastructure\Exceptions\CustomExceptions\Interneuron.CustomExceptions.csproj", "{9D6989AD-E920-4BBD-B74E-1A7DCDE8139F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interneuron.Generic.Exceptions", "BuildingBlocks\Infrastructure\Exceptions\Generic\Interneuron.Generic.Exceptions.csproj", "{944E8CDA-DFCD-4589-82AF-BCF7C115FD35}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interneuron.Web.Exceptions", "BuildingBlocks\Infrastructure\Exceptions\Web\Interneuron.Web.Exceptions.csproj", "{E7945EE8-3216-4E29-B9EB-14D21339BEA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93AD0EB9-866A-4180-9CF8-61898EF7E201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93AD0EB9-866A-4180-9CF8-61898EF7E201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93AD0EB9-866A-4180-9CF8-61898EF7E201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93AD0EB9-866A-4180-9CF8-61898EF7E201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F67A3C0-30EB-443F-B738-D3A92AE4394C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F67A3C0-30EB-443F-B738-D3A92AE4394C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F67A3C0-30EB-443F-B738-D3A92AE4394C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F67A3C0-30EB-443F-B738-D3A92AE4394C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5890D36-386D-4EE7-87BC-E992C7BAFADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5890D36-386D-4EE7-87BC-E992C7BAFADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5890D36-386D-4EE7-87BC-E992C7BAFADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5890D36-386D-4EE7-87BC-E992C7BAFADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D6989AD-E920-4BBD-B74E-1A7DCDE8139F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D6989AD-E920-4BBD-B74E-1A7DCDE8139F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D6989AD-E920-4BBD-B74E-1A7DCDE8139F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D6989AD-E920-4BBD-B74E-1A7DCDE8139F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{944E8CDA-DFCD-4589-82AF-BCF7C115FD35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{944E8CDA-DFCD-4589-82AF-BCF7C115FD35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{944E8CDA-DFCD-4589-82AF-BCF7C115FD35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{944E8CDA-DFCD-4589-82AF-BCF7C115FD35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7945EE8-3216-4E29-B9EB-14D21339BEA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7945EE8-3216-4E29-B9EB-14D21339BEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7945EE8-3216-4E29-B9EB-14D21339BEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7945EE8-3216-4E29-B9EB-14D21339BEA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{93AD0EB9-866A-4180-9CF8-61898EF7E201} = {25D57586-1E19-432D-AAC9-1D4AF03D6851}
+		{4235988B-DD1B-4DD9-9C25-1FEF0D34392E} = {751F5C87-2C67-4AD1-A313-B4B7AD8E07BE}
+		{D3D00B2A-7DE7-4E8B-A521-34F5DB903B6B} = {751F5C87-2C67-4AD1-A313-B4B7AD8E07BE}
+		{74EA549B-93CD-4F81-91F6-E8AEC482A815} = {751F5C87-2C67-4AD1-A313-B4B7AD8E07BE}
+		{1F67A3C0-30EB-443F-B738-D3A92AE4394C} = {4235988B-DD1B-4DD9-9C25-1FEF0D34392E}
+		{6F4CAE69-C47D-4018-B6A3-EB8EB7A2A8BD} = {D3D00B2A-7DE7-4E8B-A521-34F5DB903B6B}
+		{CEA8B7D1-78BC-4A4A-9E01-C5B930A6ED74} = {D3D00B2A-7DE7-4E8B-A521-34F5DB903B6B}
+		{EF9C867B-0AAA-4F5E-9E0A-BA64BECEEC40} = {D3D00B2A-7DE7-4E8B-A521-34F5DB903B6B}
+		{A5890D36-386D-4EE7-87BC-E992C7BAFADC} = {74EA549B-93CD-4F81-91F6-E8AEC482A815}
+		{9D6989AD-E920-4BBD-B74E-1A7DCDE8139F} = {6F4CAE69-C47D-4018-B6A3-EB8EB7A2A8BD}
+		{944E8CDA-DFCD-4589-82AF-BCF7C115FD35} = {CEA8B7D1-78BC-4A4A-9E01-C5B930A6ED74}
+		{E7945EE8-3216-4E29-B9EB-14D21339BEA7} = {EF9C867B-0AAA-4F5E-9E0A-BA64BECEEC40}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {878B76D7-041C-49FD-AC91-48ABD8F003DD}
+	EndGlobalSection
+EndGlobal
